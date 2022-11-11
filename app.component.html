@@ -1,0 +1,32 @@
+
+<div class="header">
+  <h1> {{title}}
+    <span>
+    <ul>
+          <li><a routerLink="/home"> <button  class="btn btn-outline-primary" >Home</button></a></li>
+          
+          <li><a routerLink="/skills"><button class="btn btn-outline-primary" >Skill</button></a></li>
+          <li><a routerLink="/services"><button class="btn btn-outline-primary" >Services</button></a></li>
+          <li><a routerLink="/experience"><button class="btn btn-outline-primary" >Experience</button></a></li>
+          <li><a routerLink="/education"><button class="btn btn-outline-primary" >Education</button></a></li>
+          <li><a routerLink="/portfolio"><button class="btn btn-outline-primary" >Portfolio</button></a></li>
+          <li><a routerLink="/testimonials"><button class="btn btn-outline-primary" >Testimonials</button></a></li>
+          <li><a routerLink="/contact"><button class="btn btn-outline-primary" >Contact</button></a></li>
+      </ul>
+    </span>  
+  </h1>
+  <section>
+    <div class="details">
+      <img [src]='path' alt="" width="250" height="250"> 
+        <p class=info><b> General Information</b> </p>
+         <ol type="none">
+         <li> Name: Isha Vats</li><br><br>
+          <li>Location: Ghaziabad</li><br><br>
+          <li>Mobile: 8700300801</li><br><br>
+          <li>Email: ivats.nic@gmail.com</li><br><br>
+         </ol>
+  </div>
+        
+    
+        </section>
+<router-outlet></router-outlet>
